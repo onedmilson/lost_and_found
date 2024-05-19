@@ -1,0 +1,78 @@
+.account__container {
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  margin-left: 210px;
+  padding: 20px;
+  width: calc(100% - 210px);
+  height: 100vh;
+}
+
+.content__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.text__input {
+  width: 280px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input__icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.card__items {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #555;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 100ms ease-in-out;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.card p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.hi__user {
+  font-size: 24px;
+}
+
+.enfase {
+  font-size: 24px;
+  font-weight: bold;
+}
